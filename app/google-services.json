@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "489872180216",
+    "firebase_url": "https://bookme-9de6f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bookme-9de6f",
+    "storage_bucket": "bookme-9de6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489872180216:android:29428103b6ff02e3594c0d",
+        "android_client_info": {
+          "package_name": "com.example.bookme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs0sd8V-bYXC6fI2XERncWVbuqXkn1U3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

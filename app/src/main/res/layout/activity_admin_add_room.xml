@@ -1,0 +1,60 @@
+<!-- File: activity_admin_add_room.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddRoomActivity">
+
+    <EditText
+        android:id="@+id/editTextRoomID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Room ID"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextRoomName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Room Name"
+        app:layout_constraintTop_toBottomOf="@id/editTextRoomID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCapacity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Capacity"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/editTextRoomName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        app:layout_constraintTop_toBottomOf="@id/editTextCapacity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAddRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Room"
+        app:layout_constraintTop_toBottomOf="@id/editTextLocation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
